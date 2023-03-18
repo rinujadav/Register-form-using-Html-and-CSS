@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Using External CSS to reuse every time while making new form such Sign In, Welcome Page etc -->
+    <link rel="stylesheet" href="D:/form_demo/form.css">
+
+</head>
+
+<body>
+    <!-- Sign Up Page -->
+    <div class="main main_container">
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Register Here!</h1>
+
+                <input type="text" name="firstname" placeholder="First Name" required />
+                <input type="text" name="lastname" placeholder="Last name" />
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <input type="text" name="confirm_pasword" placeholder="Confirm Pasword" required />
+                <input type="text" placeholder="DOB" onfocus="(this.type='date')">
+
+                <button class="button text" type="submit">Register</button>
+            </form>
+        </div>
+        <div class="form-container img-container">
+            <img class="size" src="D:/form_demo/images/sign_up.webp" alt="abc">
+        </div>
+    </div>
+</body>
+
+</html>
